@@ -6,6 +6,9 @@ public class Beverage {
 	Beverage(String type){
 		this.type= type;
 	}
+	String getBeverage() {
+		return type;
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
